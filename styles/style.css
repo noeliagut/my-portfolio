@@ -165,6 +165,7 @@ button {
     box-shadow: 0px 5px 5px rgba(65, 65, 65, 0.4);
     color: #fff;
     transform: translateY(-3px);
+    cursor: pointer;
   }
 
 /* ¿ Q U E  H A G O ? */
@@ -310,7 +311,8 @@ h5 {
     text-transform: uppercase;
     letter-spacing: 10px;
     line-height: 60px;
-    margin-top: 25%;
+    margin-top: 20%;
+    margin-bottom: 5%;
 }
 
 
@@ -332,6 +334,17 @@ h5 {
     position: absolute;
 }
 
+.cta-case-study {
+    background-color: #333;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+.cta-case-study:hover {
+    background-color: #fff;
+    color: #333;
+    cursor: pointer;
+}
 /* C O N T A C T O  */
 
 .main-contact {
@@ -433,4 +446,10 @@ footer {
     max-width: 1440px;
     margin: auto;
   }
+}
+
+@media only screen and (max-width: 1015px) {
+    .mobile-no {
+        display: block;
+    }
 }
