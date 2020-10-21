@@ -429,16 +429,28 @@ footer {
   }  
 
 
+@media only screen and (max-width: 415px) {
+    .mobile-no {
+        display: none;
+    }
+}
+
 @media only screen and (min-width: 415px) and (max-width: 768px) {
-  
+    .mobile-no {
+        display: none;
+    }
 }
 
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
-  
+    .mobile-no {
+        display: none;
+    }
 }
 
 @media only screen and (min-width: 1025px) and (max-width: 1440px) {
-  
+    .mobile-no {
+        display: none;
+    }
 }
 
 @media only screen and (min-width: 1441px) {
@@ -448,8 +460,3 @@ footer {
   }
 }
 
-@media only screen and (max-width: 1015px) {
-    .mobile-no {
-        display: block;
-    }
-}
