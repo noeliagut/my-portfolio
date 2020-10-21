@@ -433,11 +433,31 @@ footer {
     .mobile-no {
         display: none;
     }
+
+    .mobile {
+        display: block;
+        font-family: 'Abril Fatface', cursive;
+        font-weight: normal;
+        font-size: 26px; 
+        padding: 5%;
+        text-align: center;
+        line-height: 40px;
+    }
 }
 
 @media only screen and (min-width: 415px) and (max-width: 768px) {
     .mobile-no {
         display: none;
+    }
+
+    .mobile {
+        display: block;
+        font-family: 'Abril Fatface', cursive;
+        font-weight: normal;
+        font-size: 26px; 
+        padding: 5%;
+        text-align: center;
+        line-height: 40px;
     }
 }
 
@@ -445,11 +465,31 @@ footer {
     .mobile-no {
         display: none;
     }
+
+    .mobile {
+        display: block;
+        font-family: 'Abril Fatface', cursive;
+        font-weight: normal;
+        font-size: 26px; 
+        padding: 5%;
+        text-align: center;
+        line-height: 40px;
+    }
 }
 
 @media only screen and (min-width: 1025px) and (max-width: 1440px) {
     .mobile-no {
         display: none;
+    }
+
+    .mobile {
+        display: block;
+        font-family: 'Abril Fatface', cursive;
+        font-weight: normal;
+        font-size: 26px; 
+        padding: 5%;
+        text-align: center;
+        line-height: 40px;
     }
 }
 
