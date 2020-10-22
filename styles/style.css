@@ -4,6 +4,10 @@ body {
     font-weight: normal;
 }
 
+.mobile {
+    display: none;
+}
+
 /* B A R R A  D E  N A V E G A C I O N */
 
 nav {
@@ -518,5 +522,9 @@ footer {
     max-width: 1440px;
     margin: auto;
   }
+
+  .mobile {
+    display: none;
+}
 }
 
